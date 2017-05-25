@@ -39,6 +39,9 @@ dependencies {
 ```
 
 &nbsp;
+### Use
+
+&nbsp;
 #### XML
 Include namespace to the root View/Layout :
 ```
@@ -92,11 +95,11 @@ button.setRadius(10);
 | focus/pressed color (int) | app:focusColor="#FF4081" | setFocusColor(Color.GRAY) |
 | radius of button (dimension) | app:radius="10dp" | setRadius(10) |
 | disabled text color | app:disabledTextColor="#DDD" | setDisabledColor(Color.GRAY) |
-| Awesome font unicode (String) | app:fontIcon="&#xf007;" | setFontIcon("\uf007"); |
+| Awesome font unicode (String) | app:fontIcon="&#xf291;" | setFontIcon("\uf007"); |
 | Icon drawable resource (int) | app:drawableResource="@drawable/ic_camera" | setDrawableResource(R.drawable.ic_camera) |
 | Icon color (int) | app:iconColor="#FFF" | setIconColor(Color.WHITE) |
 | Icon position (int); Supported position, LEFT, TOP, RIGHT, BOTTOM | app:iconPosition="left" | setIconPosition(NoboButton.POSITION_LEFT) |
-| Space between icon & text | app:iconPadding="10dp" | setIconPadding(10) |
+| Space between icon & text (dimension) | app:iconPadding="10dp" | setIconPadding(10) |
 
 
 &nbsp;
