@@ -81,6 +81,13 @@ button.setRadius(10);
 ```
 
 &nbsp;
+#### Font Awesome Icon
+
+Cheatsheet http://fontawesome.io/cheatsheet/
+
+Note: before use **font awesome** please see their license http://fontawesome.io/license/
+
+&nbsp;
 #### Attributes
 | Description (Data type) | XML Attribute | Java Attribute | 
 |-------------------------------|-------------|-------------|
