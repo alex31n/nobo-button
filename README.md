@@ -3,6 +3,10 @@
 Simple and fast way to create android button with icon, radius, background 
 
 &nbsp;
+### What is new? 
+Please view the releases page for version change logs. [View Releases](https://github.com/alex31n/NoboButton/releases/)
+
+&nbsp;
 ### Features!
 - Drawable Resource - position, padding
 - Font Awesome Icon - color, position, padding
