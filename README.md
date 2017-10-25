@@ -22,7 +22,7 @@ Simple and fast way to create android button with icon, radius, background
 
 ```
 dependencies {
-        compile 'com.ornach.nobobutton:nobobutton:1.3'
+        compile 'com.ornach.nobobutton:nobobutton:1.4'
 }
 ```
 
@@ -33,7 +33,7 @@ dependencies {
 <dependency>
     <groupId>com.ornach.nobobutton</groupId>
     <artifactId>nobobutton</artifactId>
-    <version>1.3</version>
+    <version>1.4</version>
     <type>pom</type>
 </dependency>
 ```
@@ -54,14 +54,14 @@ NoboButton with custom params
     android:layout_height="wrap_content"
     android:padding="10dp"
     android:layout_marginBottom="20dp"
-    app:text="Buy Now"
-    app:borderColor="#FFFFFF"
-    app:borderWidth="2dp"
-    app:backgroundColor="#EF3D56"
-    app:focusColor="#B83CC3"
-    app:textColor="#FFF"
-    app:radius="5dp"
-    app:fontIcon="&#xf291;"/>
+    app:nb_text="Buy Now"
+    app:nb_borderColor="#FFFFFF"
+    app:nb_borderWidth="2dp"
+    app:nb_backgroundColor="#EF3D56"
+    app:nb_focusColor="#B83CC3"
+    app:nb_textColor="#FFF"
+    app:nb_radius="5dp"
+    app:nb_fontIcon="&#xf291;"/>
 ```
 
 &nbsp;
