@@ -26,7 +26,7 @@ Please view the releases page for version change logs. [View Releases](https://g
 
 ```
 dependencies {
-        compile 'com.ornach.nobobutton:nobobutton:1.5'
+        compile 'com.ornach.nobobutton:nobobutton:1.6'
 }
 ```
 
@@ -37,7 +37,7 @@ dependencies {
 <dependency>
     <groupId>com.ornach.nobobutton</groupId>
     <artifactId>nobobutton</artifactId>
-    <version>1.5</version>
+    <version>1.6</version>
     <type>pom</type>
 </dependency>
 ```
