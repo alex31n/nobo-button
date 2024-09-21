@@ -1,4 +1,4 @@
-package com.github.nobobutton
+package com.github.nobobuttonproject
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.github.nobobutton.ui.theme
+package com.github.nobobuttonproject.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

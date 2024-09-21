@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.github.nobobutton"
+    namespace = "com.github.nobobuttonproject"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.github.nobobutton"
+        applicationId = "com.github.nobobuttonproject"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
