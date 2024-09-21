@@ -16,7 +16,7 @@ Please view the releases page for version change logs. [View Releases](https://g
 
 &nbsp;
 ### Screenshot
-![Nobo Button Screenshot](https://raw.githubusercontent.com/alex31n/NoboButton/master/Assets/button_screenshot.jpg)
+![Nobo Button Screenshot](https://raw.githubusercontent.com/alex31n/NoboButton/master/assets/button_screenshot.jpg)
 
 &nbsp;
 ### Install
