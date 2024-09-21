@@ -41,18 +41,6 @@ Step 2. Add the dependency
 ```
 
 &nbsp;
-#### Maven
-
-```
-<dependency>
-    <groupId>com.ornach.nobobutton</groupId>
-    <artifactId>nobobutton</artifactId>
-    <version>1.6</version>
-    <type>pom</type>
-</dependency>
-```
-
-&nbsp;
 ### Use
 
 &nbsp;
