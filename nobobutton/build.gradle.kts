@@ -3,8 +3,10 @@ plugins {
     id("maven-publish")
 }
 
+group = "com.github.alex31n"
+
 android {
-    namespace = "com.github.nobobutton"
+    namespace = "com.github.alex31n.nobobutton"
     compileSdk = 34
 
     defaultConfig {
@@ -36,4 +38,19 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+}
+
+
+publishing {
+    publications {
+        register<MavenPublication>("release") {
+            groupId = "com.github.alex31n"
+            artifactId = "nobobutton"
+            version = "1.0"
+
+            /*afterEvaluate {
+                from(components["release"])
+            }*/
+        }
+    }
 }
