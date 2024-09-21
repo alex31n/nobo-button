@@ -10,6 +10,8 @@ import androidx.annotation.AttrRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import com.github.alex31n.nobobutton.R;
+
 
 public class ViewButton extends LinearLayout {
 
