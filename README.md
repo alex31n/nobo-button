@@ -37,7 +37,7 @@ dependencyResolutionManagement {
 Step 2. Add the dependency
 ```gradle
 dependencies {
-    implementation 'com.github.alex31n:NoboButton:2.0.7'
+    implementation 'com.github.alex31n:nobo-button:2.0.7'
 }
 ```
 
