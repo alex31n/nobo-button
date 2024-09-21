@@ -24,20 +24,21 @@ Please view the releases page for version change logs. [View Releases](https://g
 &nbsp;
 Step 1. Add the JitPack repository to your build file  
 Add it in your root build.gradle at the end of repositories:
-```Gradle
-	dependencyResolutionManagement {
-		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-		repositories {
-			mavenCentral()
-			maven { url 'https://jitpack.io' }
-		}
-	}
-```
-Step 2. Add the dependency
-```Gradle
-    dependencies {
-        implementation 'com.github.alex31n:NoboButton:2.0.7'
+```gradle
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
     }
+}
+```
+
+Step 2. Add the dependency
+```gradle
+dependencies {
+    implementation 'com.github.alex31n:NoboButton:2.0.7'
+}
 ```
 
 &nbsp;
