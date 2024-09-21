@@ -26,9 +26,10 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
+
 }
 
 dependencies {
@@ -44,14 +45,12 @@ dependencies {
 afterEvaluate {
     publishing {
         publications {
-            register<MavenPublication>("release") {
+            // create a Maven publication called "release"
+            create<MavenPublication>("release"){
+                from(components["release"])
                 groupId = "com.github.alex31n"
                 artifactId = "nobobutton"
                 version = "1.0"
-
-//                afterEvaluate {
-//                    from(components["release"])
-//                }
             }
         }
     }
