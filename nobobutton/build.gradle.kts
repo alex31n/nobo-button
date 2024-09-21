@@ -41,16 +41,18 @@ dependencies {
 }
 
 
-publishing {
-    publications {
-        register<MavenPublication>("release") {
-            groupId = "com.github.alex31n"
-            artifactId = "nobobutton"
-            version = "1.0"
+afterEvaluate {
+    publishing {
+        publications {
+            register<MavenPublication>("release") {
+                groupId = "com.github.alex31n"
+                artifactId = "nobobutton"
+                version = "1.0"
 
-            /*afterEvaluate {
-                from(components["release"])
-            }*/
+//                afterEvaluate {
+//                    from(components["release"])
+//                }
+            }
         }
     }
 }
