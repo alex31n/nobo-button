@@ -22,7 +22,7 @@ Please view the releases page for version change logs. [View Releases](https://g
 ### Install
 
 &nbsp;
-Step 1. Add the JitPack repository to your build file
+Step 1. Add the JitPack repository to your build file  
 Add it in your root build.gradle at the end of repositories:
 ```Gradle
 	dependencyResolutionManagement {
